@@ -41,12 +41,12 @@ def time_to_merge(east, west):
 if __name__ == "__main__":
     import random
     numbers = 15
-    unordered = []
+    unsorted = []
 for i in range(numbers):
-    unordered.append(random.randint(1,15))
-print("\nunordered\n")
-print(unordered)
+    unsorted.append(random.randint(1,15))
+print("\nunsorted\n")
+print(unsorted)
 
-ordered = get_merge_sorted_list(unordered)
-print("\norderedn\n")
+ordered = get_merge_sorted_list(unsorted)
+print("\nordered\n")
 print(ordered)
